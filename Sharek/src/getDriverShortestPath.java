@@ -18,29 +18,38 @@ import sharek.objects.LonLat;
 import sharek.objects.Nodes;
 import sharek.shortest_path.A_star;
 
+// TODO: Auto-generated Javadoc
 /**
- * get Driver ShortestPath 
- * 
- * 
+ * get Driver ShortestPath .
  */
 @WebServlet(name="getDriverShortestPath",urlPatterns={"/getDriverShortestPath"})
 public class getDriverShortestPath extends HttpServlet {
 
 	
 	
+	/** The Constant serialVersionUID. */
 	private static final long serialVersionUID = 1L;
 	
+	/**
+	 * Instantiates a new gets the driver shortest path.
+	 */
 	public getDriverShortestPath() {
 		// TODO Auto-generated constructor stub
 		super();
 	}
 	
+	/* (non-Javadoc)
+	 * @see javax.servlet.GenericServlet#init()
+	 */
 	@Override
 	public void init() throws ServletException {
 		// TODO Auto-generated method stub
 		super.init();
 	}
 
+	/* (non-Javadoc)
+	 * @see javax.servlet.http.HttpServlet#doGet(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+	 */
 	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse resp)
 			throws ServletException, IOException {

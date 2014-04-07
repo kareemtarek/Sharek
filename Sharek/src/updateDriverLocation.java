@@ -18,14 +18,19 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonPrimitive;
 
+// TODO: Auto-generated Javadoc
+/**
+ * The Class updateDriverLocation.
+ */
 @WebServlet(name="updateDriverLocation",urlPatterns={"/updateDriverLocation"})
 public class updateDriverLocation extends HttpServlet {
 
-	/**
-	 * 
-	 */
+	/** The Constant serialVersionUID. */
 	private static final long serialVersionUID = 1L;
 
+	/* (non-Javadoc)
+	 * @see javax.servlet.http.HttpServlet#doGet(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+	 */
 	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
